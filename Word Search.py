@@ -59,6 +59,6 @@ for word in word_list:
                          for position in wordPositions]
         print(word, "found\t starting at",
               wordPositions[0], direction, gridPositions)
-        break  # break here if we don't  want to find all matches
+        break  # break here if we don't want to find all matches
 print("Gone through dictionary with total words of ", "(",
       len(word_list), ")", "and Program Runtime is:", datetime.now()-start)
